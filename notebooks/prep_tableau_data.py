@@ -124,37 +124,34 @@ ORDER BY total_revenue DESC
 store_perf.to_csv('../tableau/store_performance.csv', index=False)
 print(f"Saved: store_performance.csv ({len(store_perf)} rows)")
 
-# FILE 7: Campaign ROI
+# FILE 7: Campaign ROI (Incremental)
 campaign_roi = pd.read_sql("""
+WITH baseline AS (
+    SELECT AVG(revenue_gbp) AS baseline_daily
+    FROM daily_sales
+    WHERE active_campaign IS NULL
+),
+campaign_perf AS (
+    SELECT 
+        c.campaign_name,
+        c.marketing_spend_gbp,
+        AVG(ds.revenue_gbp) AS campaign_avg_daily,
+        SUM(ds.revenue_gbp) AS revenue_during,
+        julianday(c.end_date) - julianday(c.start_date) + 1 AS campaign_days
+    FROM campaigns c
+    LEFT JOIN daily_sales ds ON ds.sale_date BETWEEN c.start_date AND c.end_date
+    GROUP BY c.campaign_id
+)
 SELECT 
-    c.campaign_name,
-    c.start_date,
-    c.end_date,
-    c.marketing_spend_gbp as marketing_spend,
-    c.intensity_multiplier,
-    ROUND(SUM(ds.revenue_gbp), 0) as revenue_during,
-    ROUND(SUM(ds.revenue_gbp) / NULLIF(c.marketing_spend_gbp, 0), 1) as revenue_per_pound
-FROM campaigns c
-LEFT JOIN daily_sales ds ON ds.sale_date BETWEEN c.start_date AND c.end_date
-GROUP BY c.campaign_id
-ORDER BY revenue_per_pound DESC
+    cp.campaign_name,
+    cp.marketing_spend_gbp AS marketing_spend,
+    ROUND(cp.revenue_during, 0) AS revenue_during,
+    ROUND((cp.campaign_avg_daily - b.baseline_daily) * cp.campaign_days, 0) AS incremental_revenue,
+    ROUND(((cp.campaign_avg_daily - b.baseline_daily) * cp.campaign_days) / NULLIF(cp.marketing_spend_gbp, 0), 2) AS incremental_roi
+FROM campaign_perf cp
+CROSS JOIN baseline b
+ORDER BY incremental_roi DESC
 """, conn)
 
 campaign_roi.to_csv('../tableau/campaign_roi.csv', index=False)
 print(f"Saved: campaign_roi.csv ({len(campaign_roi)} rows)")
-
-conn.close()
-
-print("\n" + "="*60)
-print("TABLEAU DATA PREP COMPLETE")
-print("="*60)
-print("""
-Files ready in tableau/ folder:
-  1. forecast_predictions_long.csv
-  2. historical_revenue.csv
-  3. model_comparison.csv
-  4. feature_importance.csv
-  5. category_performance.csv
-  6. store_performance.csv
-  7. campaign_roi.csv
-""")
