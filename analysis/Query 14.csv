@@ -1,0 +1,26 @@
+store_name,category,total_revenue,total_profit,pct_of_store_revenue,pct_of_category_revenue,store_rank_within_category
+Downtown Flagship,Apparel,112239868.0,56110723.0,30.43,30.5,1
+Marina Mall,Apparel,93762905.0,46882026.0,30.47,25.48,2
+Suburban Plaza,Apparel,62323810.0,31165139.0,30.48,16.93,3
+Airport Outlet,Apparel,55997649.0,27982871.0,30.41,15.22,4
+City Center Express,Apparel,43696508.0,21850524.0,30.53,11.87,5
+Downtown Flagship,Electronics,139749168.0,71882185.0,37.89,30.58,1
+Marina Mall,Electronics,116475737.0,59902084.0,37.85,25.49,2
+Suburban Plaza,Electronics,77228979.0,39713303.0,37.78,16.9,3
+Airport Outlet,Electronics,69653108.0,35827612.0,37.82,15.24,4
+City Center Express,Electronics,53918591.0,27720427.0,37.67,11.8,5
+Downtown Flagship,Groceries,30814952.0,16303940.0,8.35,30.5,1
+Marina Mall,Groceries,25730462.0,13616008.0,8.36,25.47,2
+Suburban Plaza,Groceries,17076699.0,9035104.0,8.35,16.9,3
+Airport Outlet,Groceries,15412616.0,8154675.0,8.37,15.26,4
+City Center Express,Groceries,11987787.0,6343909.0,8.37,11.87,5
+Downtown Flagship,Home Goods,67629086.0,33214954.0,18.34,30.46,1
+Marina Mall,Home Goods,56499879.0,27751296.0,18.36,25.45,2
+Suburban Plaza,Home Goods,37638226.0,18485693.0,18.41,16.95,3
+Airport Outlet,Home Goods,33883821.0,16635170.0,18.4,15.26,4
+City Center Express,Home Goods,26384126.0,12957510.0,18.43,11.88,5
+Downtown Flagship,Seasonal,18418505.0,8698980.0,4.99,30.57,1
+Marina Mall,Seasonal,15286259.0,7226259.0,4.97,25.37,2
+Suburban Plaza,Seasonal,10176513.0,4808547.0,4.98,16.89,3
+Airport Outlet,Seasonal,9213102.0,4351627.0,5.0,15.29,4
+City Center Express,Seasonal,7161945.0,3386310.0,5.0,11.89,5

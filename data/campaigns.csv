@@ -1,0 +1,25 @@
+campaign_id,campaign_name,start_date,end_date,target_categories,marketing_spend_gbp,intensity_multiplier
+CAMP001,New Year Sale 2023,2023-01-01,2023-01-15,"Apparel, Home Goods",45000,1.2
+CAMP002,Ramadan Season 2023,2023-03-22,2023-04-21,"Groceries, Apparel, Home Goods",85000,1.6
+CAMP003,Eid Al-Fitr 2023,2023-04-21,2023-04-28,"Apparel, Electronics, Groceries",120000,2.0
+CAMP004,Summer Sale 2023,2023-06-15,2023-07-15,"Apparel, Home Goods",65000,1.4
+CAMP005,Back to School 2023,2023-08-15,2023-09-10,"Apparel, Electronics",70000,1.5
+CAMP006,Black Friday 2023,2023-11-24,2023-11-27,"Electronics, Apparel, Home Goods",200000,3.0
+CAMP007,Cyber Monday 2023,2023-11-27,2023-11-28,Electronics,100000,2.5
+CAMP008,Christmas 2023,2023-12-10,2023-12-25,"Apparel, Electronics, Seasonal, Home Goods",180000,2.2
+CAMP009,New Year Sale 2024,2024-01-01,2024-01-15,"Apparel, Home Goods",50000,1.3
+CAMP010,Ramadan Season 2024,2024-03-11,2024-04-10,"Groceries, Apparel, Home Goods",95000,1.7
+CAMP011,Eid Al-Fitr 2024,2024-04-10,2024-04-17,"Apparel, Electronics, Groceries",130000,2.1
+CAMP012,Summer Sale 2024,2024-06-15,2024-07-15,"Apparel, Home Goods",75000,1.5
+CAMP013,Back to School 2024,2024-08-15,2024-09-10,"Apparel, Electronics",80000,1.6
+CAMP014,Black Friday 2024,2024-11-29,2024-12-02,"Electronics, Apparel, Home Goods",220000,3.2
+CAMP015,Cyber Monday 2024,2024-12-02,2024-12-03,Electronics,110000,2.6
+CAMP016,Christmas 2024,2024-12-10,2024-12-25,"Apparel, Electronics, Seasonal, Home Goods",195000,2.3
+CAMP017,New Year Sale 2025,2025-01-01,2025-01-15,"Apparel, Home Goods",55000,1.3
+CAMP018,Ramadan Season 2025,2025-02-28,2025-03-30,"Groceries, Apparel, Home Goods",100000,1.7
+CAMP019,Eid Al-Fitr 2025,2025-03-30,2025-04-06,"Apparel, Electronics, Groceries",135000,2.2
+CAMP020,Summer Sale 2025,2025-06-15,2025-07-15,"Apparel, Home Goods",80000,1.5
+CAMP021,Back to School 2025,2025-08-15,2025-09-10,"Apparel, Electronics",85000,1.6
+CAMP022,Black Friday 2025,2025-11-28,2025-12-01,"Electronics, Apparel, Home Goods",230000,3.3
+CAMP023,Cyber Monday 2025,2025-12-01,2025-12-02,Electronics,115000,2.7
+CAMP024,Christmas 2025,2025-12-10,2025-12-25,"Apparel, Electronics, Seasonal, Home Goods",210000,2.4

@@ -1,0 +1,101 @@
+sku_id,product_name,category,unit_price,unit_cost,margin_pct
+SKU0001,DarkOliveGreen Shirt,Apparel,71.82,42.38,40.99
+SKU0002,Bisque Shirt,Apparel,116.5,60.55,48.03
+SKU0003,LightSalmon Jacket,Apparel,44.5,19.19,56.88
+SKU0004,LemonChiffon Dress,Apparel,32.26,18.49,42.68
+SKU0005,Ivory Dress,Apparel,100.14,54.24,45.84
+SKU0006,DarkSlateGray Dress,Apparel,27.57,16.38,40.59
+SKU0007,DarkKhaki Shirt,Apparel,129.06,57.1,55.76
+SKU0008,YellowGreen Shoes,Apparel,47.73,20.84,56.34
+SKU0009,DarkCyan Shirt,Apparel,63.03,31.83,49.5
+SKU0010,Peru Shoes,Apparel,78.99,36.2,54.17
+SKU0011,BlanchedAlmond Pants,Apparel,101.48,43.42,57.21
+SKU0012,Black Shirt,Apparel,61.52,29.12,52.67
+SKU0013,DarkGoldenRod Shirt,Apparel,82.01,45.68,44.3
+SKU0014,IndianRed Shirt,Apparel,49.96,25.12,49.72
+SKU0015,Lavender Dress,Apparel,99.05,40.54,59.07
+SKU0016,Tan Dress,Apparel,100.94,43.82,56.59
+SKU0017,Bisque Shoes,Apparel,33.13,19.54,41.02
+SKU0018,Gray Shoes,Apparel,145.7,81.84,43.83
+SKU0019,YellowGreen Shirt,Apparel,63.08,26.46,58.05
+SKU0020,PeachPuff Shoes,Apparel,110.53,53.94,51.2
+SKU0021,Indigo Dress,Apparel,40.25,20.09,50.09
+SKU0022,RosyBrown Shoes,Apparel,29.3,17.05,41.81
+SKU0023,LightSeaGreen Pants,Apparel,57.35,30.54,46.75
+SKU0024,AntiqueWhite Dress,Apparel,63.96,32.24,49.59
+SKU0025,DimGray Pants,Apparel,93.34,40.79,56.3
+SKU0026,Peru Shoes,Apparel,146.2,81.14,44.5
+SKU0027,MediumSpringGreen Jacket,Apparel,142.44,82.47,42.1
+SKU0028,LightSeaGreen Shirt,Apparel,99.74,58.29,41.56
+SKU0029,DeepSkyBlue Dress,Apparel,36.06,15.84,56.07
+SKU0030,IndianRed Pants,Apparel,30.65,14.25,53.51
+SKU0031,Smart Laptop,Electronics,372.07,169.02,54.57
+SKU0032,Pro Tablet,Electronics,680.12,320.58,52.86
+SKU0033,Smart Phone,Electronics,296.65,150.86,49.15
+SKU0034,Ultra Headphones,Electronics,198.65,111.33,43.96
+SKU0035,Ultra Laptop,Electronics,152.19,90.91,40.27
+SKU0036,Smart Speaker,Electronics,640.57,281.69,56.03
+SKU0037,Smart Phone,Electronics,103.87,58.49,43.69
+SKU0038,Elite Speaker,Electronics,594.8,324.64,45.42
+SKU0039,Ultra Headphones,Electronics,639.89,265.43,58.52
+SKU0040,Ultra Speaker,Electronics,350.93,148.5,57.68
+SKU0041,Smart Speaker,Electronics,704.17,369.45,47.53
+SKU0042,Smart Speaker,Electronics,331.63,136.87,58.73
+SKU0043,Pro Phone,Electronics,317.69,147.74,53.5
+SKU0044,Ultra Tablet,Electronics,610.72,322.16,47.25
+SKU0045,Smart Phone,Electronics,721.05,356.52,50.56
+SKU0046,Pro Phone,Electronics,183.72,99.7,45.73
+SKU0047,Elite Laptop,Electronics,632.55,324.03,48.77
+SKU0048,Elite Laptop,Electronics,639.68,319.05,50.12
+SKU0049,Pro Laptop,Electronics,465.91,226.2,51.45
+SKU0050,Smart Tablet,Electronics,117.79,49.66,57.84
+SKU0051,Rustic Cushion,Home Goods,36.91,19.46,47.28
+SKU0052,Rustic Chair,Home Goods,99.16,49.75,49.83
+SKU0053,Rustic Lamp,Home Goods,229.66,103.31,55.02
+SKU0054,Rustic Lamp,Home Goods,120.28,66.29,44.89
+SKU0055,Modern Vase,Home Goods,80.34,33.37,58.46
+SKU0056,Classic Cushion,Home Goods,93.75,40.52,56.78
+SKU0057,Rustic Rug,Home Goods,234.53,131.72,43.84
+SKU0058,Modern Cushion,Home Goods,169.35,97.26,42.57
+SKU0059,Modern Lamp,Home Goods,206.81,90.44,56.27
+SKU0060,Modern Cushion,Home Goods,226.36,114.96,49.21
+SKU0061,Classic Cushion,Home Goods,207.64,120.27,42.08
+SKU0062,Modern Lamp,Home Goods,99.96,42.18,57.8
+SKU0063,Rustic Cushion,Home Goods,80.15,38.91,51.45
+SKU0064,Modern Vase,Home Goods,209.96,120.13,42.78
+SKU0065,Classic Vase,Home Goods,31.53,15.83,49.79
+SKU0066,Modern Cushion,Home Goods,121.83,54.14,55.56
+SKU0067,Modern Lamp,Home Goods,56.37,26.35,53.26
+SKU0068,Rustic Rug,Home Goods,237.44,110.32,53.54
+SKU0069,Rustic Cushion,Home Goods,144.13,77.92,45.94
+SKU0070,Rustic Rug,Home Goods,110.0,65.38,40.56
+SKU0071,Premium Beverages,Groceries,24.17,10.89,54.94
+SKU0072,Premium Cereal,Groceries,13.94,6.41,54.02
+SKU0073,Organic Tea,Groceries,9.27,3.78,59.22
+SKU0074,Fresh Snacks,Groceries,16.41,8.21,49.97
+SKU0075,Organic Coffee,Groceries,4.13,1.88,54.48
+SKU0076,Organic Tea,Groceries,22.98,10.29,55.22
+SKU0077,Fresh Tea,Groceries,6.19,3.08,50.24
+SKU0078,Fresh Snacks,Groceries,24.68,11.07,55.15
+SKU0079,Fresh Coffee,Groceries,17.79,9.83,44.74
+SKU0080,Premium Snacks,Groceries,8.23,4.49,45.44
+SKU0081,Fresh Snacks,Groceries,11.09,5.84,47.34
+SKU0082,Fresh Cereal,Groceries,16.94,8.59,49.29
+SKU0083,Fresh Coffee,Groceries,4.99,2.83,43.29
+SKU0084,Fresh Coffee,Groceries,10.06,4.4,56.26
+SKU0085,Fresh Beverages,Groceries,3.9,2.02,48.21
+SKU0086,Premium Cereal,Groceries,17.91,7.22,59.69
+SKU0087,Organic Cereal,Groceries,14.27,6.35,55.5
+SKU0088,Premium Tea,Groceries,17.19,7.48,56.49
+SKU0089,Premium Coffee,Groceries,18.2,8.69,52.25
+SKU0090,Fresh Cereal,Groceries,23.61,10.09,57.26
+SKU0091,Seasonal Gift Set,Seasonal,47.29,19.99,57.73
+SKU0092,Seasonal Decor,Seasonal,93.98,54.08,42.46
+SKU0093,Seasonal Ornament,Seasonal,40.64,21.62,46.8
+SKU0094,Seasonal Lights,Seasonal,85.38,43.63,48.9
+SKU0095,Seasonal Gift Set,Seasonal,62.37,27.96,55.17
+SKU0096,Holiday Ornament,Seasonal,27.45,15.91,42.04
+SKU0097,Holiday Lights,Seasonal,92.03,48.46,47.34
+SKU0098,Seasonal Decor,Seasonal,47.12,22.14,53.01
+SKU0099,Seasonal Ornament,Seasonal,78.08,45.24,42.06
+SKU0100,Festive Decor,Seasonal,90.97,50.58,44.4

@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+env/
+venv/
+.venv/
+
+# Large data files (excluded to keep repo lean)
+data/daily_sales.csv
+
+# Keep the database (76MB, under GitHub 100MB limit)
+# data/retail_analytics.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model backups
+models/*.pkl.bak
+
+# Tableau backups
+tableau/*.twbr

@@ -1,0 +1,46 @@
+active_campaign,category,avg_during_campaign,baseline,lift_pct
+Black Friday 2023,Electronics,21888.05,3353.51,552.69
+Black Friday 2023,Apparel,7977.7,1764.95,352.01
+Black Friday 2023,Home Goods,7501.59,1660.15,351.86
+Black Friday 2023,Seasonal,1735.98,837.45,107.29
+Black Friday 2023,Groceries,939.89,850.98,10.45
+Black Friday 2024,Electronics,23585.15,3353.51,603.3
+Black Friday 2024,Home Goods,7968.68,1660.15,380.0
+Black Friday 2024,Apparel,8372.09,1764.95,374.35
+Black Friday 2024,Seasonal,2474.93,837.45,195.53
+Black Friday 2024,Groceries,953.76,850.98,12.08
+Black Friday 2025,Electronics,25525.8,3353.51,661.17
+Black Friday 2025,Home Goods,8419.39,1660.15,407.15
+Black Friday 2025,Apparel,8746.56,1764.95,395.57
+Black Friday 2025,Seasonal,2083.87,837.45,148.83
+Black Friday 2025,Groceries,976.54,850.98,14.75
+Christmas 2023,Seasonal,6675.9,837.45,697.17
+Christmas 2023,Electronics,11465.11,3353.51,241.88
+Christmas 2023,Home Goods,4971.52,1660.15,199.46
+Christmas 2023,Apparel,5163.65,1764.95,192.57
+Christmas 2023,Groceries,860.06,850.98,1.07
+Christmas 2024,Seasonal,6746.51,837.45,705.6
+Christmas 2024,Electronics,11672.79,3353.51,248.08
+Christmas 2024,Home Goods,4995.66,1660.15,200.92
+Christmas 2024,Apparel,5261.4,1764.95,198.1
+Christmas 2024,Groceries,832.0,850.98,-2.23
+Christmas 2025,Seasonal,7044.97,837.45,741.24
+Christmas 2025,Electronics,12022.32,3353.51,258.5
+Christmas 2025,Home Goods,5195.01,1660.15,212.92
+Christmas 2025,Apparel,5471.05,1764.95,209.98
+Christmas 2025,Groceries,839.37,850.98,-1.36
+Ramadan Season 2023,Groceries,1398.08,850.98,64.29
+Ramadan Season 2023,Apparel,2746.83,1764.95,55.63
+Ramadan Season 2023,Seasonal,1287.66,837.45,53.76
+Ramadan Season 2023,Home Goods,2547.25,1660.15,53.43
+Ramadan Season 2023,Electronics,3330.29,3353.51,-0.69
+Ramadan Season 2024,Groceries,1469.68,850.98,72.7
+Ramadan Season 2024,Apparel,2881.38,1764.95,63.26
+Ramadan Season 2024,Home Goods,2660.36,1660.15,60.25
+Ramadan Season 2024,Seasonal,1268.49,837.45,51.47
+Ramadan Season 2024,Electronics,3295.48,3353.51,-1.73
+Ramadan Season 2025,Groceries,1551.96,850.98,82.37
+Ramadan Season 2025,Apparel,3041.42,1764.95,72.32
+Ramadan Season 2025,Home Goods,2770.81,1660.15,66.9
+Ramadan Season 2025,Seasonal,1298.13,837.45,55.01
+Ramadan Season 2025,Electronics,3428.7,3353.51,2.24

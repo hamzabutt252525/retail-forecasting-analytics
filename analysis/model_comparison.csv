@@ -1,0 +1,7 @@
+model,MAPE,RMSE,MAE,improvement_vs_baseline
+XGBoost,2.95,110128.0,59067.0,83.4%
+Random Forest,3.65,191966.0,81621.0,79.5%
+Naive Baseline (lag_365),17.81,612218.0,300729.0,0.0%
+Prophet,20.53,733109.0,395636.0,-15.3%
+Moving Average (30-day),27.02,913852.0,524059.0,-51.7%
+Seasonal Naive (lag_7),31.87,1250516.0,621313.0,-78.9%

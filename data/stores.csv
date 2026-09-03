@@ -1,0 +1,6 @@
+store_id,store_name,location,size,volume_multiplier
+ST001,Downtown Flagship,Urban,Large,1.8
+ST002,Marina Mall,Mall,Large,1.5
+ST003,Suburban Plaza,Suburban,Medium,1.0
+ST004,City Center Express,Urban,Small,0.7
+ST005,Airport Outlet,Airport,Small,0.9

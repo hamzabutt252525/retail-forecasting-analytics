@@ -1,0 +1,6 @@
+store_name,store_size,location,total_revenue,total_profit,pct_of_total
+Downtown Flagship,Large,Urban,368851580.0,186210782.0,30.52
+Marina Mall,Large,Mall,307755242.0,155377673.0,25.47
+Suburban Plaza,Medium,Suburban,204444227.0,103207787.0,16.92
+Airport Outlet,Small,Airport,184160298.0,92951955.0,15.24
+City Center Express,Small,Urban,143148957.0,72258680.0,11.85

@@ -1,0 +1,6 @@
+store_id,store_name,location,size,total_units_sold,total_revenue,total_gross_profit,avg_daily_sku_revenue,pct_of_total_revenue
+ST001,Downtown Flagship,Urban,Large,4965335,368851580.0,186210782.0,3365.43,30.52
+ST002,Marina Mall,Mall,Large,4143067,307755242.0,155377673.0,2807.99,25.47
+ST003,Suburban Plaza,Suburban,Medium,2756371,204444227.0,103207787.0,1865.37,16.92
+ST005,Airport Outlet,Airport,Small,2480108,184160298.0,92951955.0,1680.29,15.24
+ST004,City Center Express,Urban,Small,1930014,143148957.0,72258680.0,1306.1,11.85

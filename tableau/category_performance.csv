@@ -1,0 +1,6 @@
+category,sku_count,total_revenue,total_profit,avg_daily_units,pct_of_total
+Electronics,20,457025584.0,235045611.0,9.0,37.82
+Apparel,30,368020742.0,183991284.0,30.6,30.46
+Home Goods,20,222035138.0,109044623.0,15.1,18.37
+Groceries,20,101022516.0,53453636.0,69.7,8.36
+Seasonal,10,60256324.0,28471724.0,17.5,4.99
