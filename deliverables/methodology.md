@@ -162,7 +162,7 @@ Top 10 features by importance:
 
 1. **Peak revenue is Dec 21, not Christmas Day** — Christmas Day itself is a revenue trough
 2. **Super Saturday (Dec 13, 2025)** — Saturday 12 days before Christmas — is a top-3 shopping day
-3. **No campaign meaningfully beats baseline** — even top campaigns generate under £0.30 of incremental revenue per £1 spent. Standard ROI metrics (gross revenue ÷ spend) hide this by including baseline traffic
+3. No campaign meaningfully beats baseline — Christmas campaigns lead at £0.30 of incremental revenue per £1 spent. Standard ROI metrics (gross revenue ÷ spend) hide this by including baseline traffic
 4. **Electronics = 38% of revenue from 20% of SKUs** — inventory investment should follow revenue concentration
 5. **Downtown Flagship = 30.5% of portfolio** — single-store concentration risk
 

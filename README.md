@@ -75,7 +75,7 @@ Chronological split: 1,006 training days, 90 holdout test days.
 5. **Peak retail revenue is Dec 21, not Christmas Day** — Christmas Day itself is a revenue trough; retailers who forecast a Dec 25 spike over-order inventory
 6. **December delivers 107% revenue lift** over annual baseline — half the year's profit concentrates in 6 weeks
 7. **Electronics = 38% of revenue from 20% of SKUs** — inventory should follow revenue concentration, not SKU count
-8. **No campaign meaningfully beats baseline** — top-performing campaigns generate under £0.30 of incremental revenue per £1 spent. Standard ROI metrics inflate this by including baseline traffic
+8. No campaign meaningfully beats baseline — top-performing campaigns (Christmas) generate £0.30 of incremental revenue per £1 spent. Every other campaign performs worse. Standard ROI metrics inflate this by including baseline traffic
 ---
 
 ## Technical Stack
