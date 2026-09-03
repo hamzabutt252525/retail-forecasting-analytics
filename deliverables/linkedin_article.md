@@ -1,12 +1,14 @@
-# Every Retailer Plans for a Christmas Day Sales Spike. My 3-Year Data Shows the Opposite.
+# December 21 Is the Real Christmas Retail Peak — Not December 25
 
-I built a retail sales forecasting model on 1,096 days of daily revenue across 5 stores, 100 SKUs, and 24 marketing campaigns. When I visualized the December revenue curve, I found a pattern that contradicts standard retail planning.
+I spent the last week building a retail sales forecasting model on 1,096 days of daily revenue — 5 stores, 100 SKUs, 24 marketing campaigns. Somewhere between the SQL queries and the seventh feature engineering pass, I stopped and stared at the December revenue curve.
 
-**The revenue peak is December 21. Christmas Day itself is a revenue trough.**
+One pattern stood out immediately.
 
-Revenue climbs steadily from mid-November, spikes on Cyber Monday, drops slightly, then ramps hard from December 13 through December 21. Then it declines for four consecutive days into December 25.
+**The peak day is December 21. December 25 itself is a trough.**
 
-Retailers who forecast a Christmas Day spike over-order inventory and mis-staff the wrong day. The peak already happened.
+Revenue climbs steadily from mid-November, spikes on Cyber Monday, drops briefly, then ramps hard from December 13 through December 21. Then it declines for four consecutive days into Christmas Day.
+
+Retailers planning a Christmas Day inventory spike are staffing and stocking for the wrong date. The peak already happened.
 
 Here is what I found and how I built the model that surfaced it.
 
@@ -40,7 +42,7 @@ I benchmarked six models on a 90-day holdout (October 3 to December 31, 2025):
 
 The most surprising result: Facebook Prophet, the industry-default retail forecasting tool, placed 4th. It underperformed a simple same-day-last-year baseline.
 
-Prophet handles annual seasonality well but struggles with the sharp, campaign-driven spikes that dominate Q4 retail. My XGBoost model handles them because I engineered 21 features specifically for retail patterns.
+I ran the numbers three times to make sure I hadn't misconfigured Prophet. Same result. It handles annual seasonality well but struggles with the sharp, campaign-driven spikes that dominate Q4 retail. XGBoost handles them because I engineered 21 features specifically for retail patterns.
 
 ---
 
@@ -126,9 +128,9 @@ This is the third of three portfolio projects covering complementary analytics d
 2. **Payment Merchant Analytics** — Fintech + ML focus, quantified £93.5M in retention risk across a UK payment processor's portfolio using a Random Forest churn model (97.9% CV ROC-AUC)
 3. **Retail Sales Forecasting & Campaign ROI** — this project
 
-I am currently exploring Data Analyst, Revenue Operations, and Fintech Operations roles in Dubai, Saudi Arabia, and the UK.
+I'm currently exploring Data Analyst, Revenue Operations, and Fintech Operations roles in Dubai, Saudi Arabia, and the UK — happy to talk to hiring managers, recruiters, or anyone building analytics teams in those markets.
 
-If your team is working through demand forecasting design or campaign attribution — let me know. Happy to walk through the methodology in more detail.
+If your team is working through demand forecasting or campaign attribution and any of this looks useful, drop me a message. I'd genuinely enjoy walking through the methodology or hearing how you're approaching the same problems.
 
 ---
 
